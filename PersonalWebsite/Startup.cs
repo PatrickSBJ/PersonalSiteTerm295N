@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using PersonalWebsite.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace PersonalWebsite
 {
@@ -31,12 +33,17 @@ namespace PersonalWebsite
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddTransient<IRiddleRepo, RiddleRepo>();
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(
+            Configuration["ConnectionStrings:LocalConnectionString"]));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, AppDbContext context)
         {
             if (env.IsDevelopment())
             {
@@ -59,6 +66,10 @@ namespace PersonalWebsite
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+
+            context.Database.Migrate();
+
+            SeedData.Seed(context);
         }
     }
 }

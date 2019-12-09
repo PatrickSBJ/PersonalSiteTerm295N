@@ -10,6 +10,12 @@ namespace PersonalWebsite.Controllers
 {
     public class HomeController : Controller
     {
+        IRiddleRepo repo;
+        public HomeController(IRiddleRepo r)
+        {
+            repo = r;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -24,7 +30,17 @@ namespace PersonalWebsite.Controllers
         }
         public IActionResult Programming()
         {
-            return View();
+            List<Riddle> riddles = repo.Riddles;
+            return View(riddles);
+        }
+        [HttpPost]
+        public IActionResult Programming(string playerName)
+        {
+            Player player = new Player();
+            player.PlayerName = playerName;
+
+            List<Riddle> riddles = repo.Riddles;
+            return View(riddles);
         }
         public IActionResult Contact()
         {

@@ -1,7 +1,11 @@
-﻿@{
+﻿@model List<Riddle>
+@{
     ViewData["Title"] = "Programming";
     Layout = "_BasicLayout";
+
 }
+
+
 
 <h1>Programming</h1>
 <nav>
@@ -15,4 +19,20 @@
         </li>
     </ul>
 </nav>
-<a style="margin-top: 100px;" class="btn btn-outline-success" >Start Game</a>
+
+<form id="playerForm" method="post">
+    <div class="form-group">
+        <label for="playerName">Player Name</label><br />
+        <input name="playerName" /><br />
+    </div>
+    <input onclick="setupPage()" type="submit" class="btn btn-dark" value="Enter" />
+</form>
+
+@foreach (Riddle riddle in Model)
+{
+    <p>@riddle.RiddleText</p>
+    <input />
+}
+
+<button id="submitAnswersButton" onclick="checkAnswers" style="margin-top: 10px;" class="btn btn-outline-success">Submit</button>
+

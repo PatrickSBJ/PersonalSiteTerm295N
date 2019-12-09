@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAsam+cKbyCEC7LdsvI3MBwAAAAAACAAAAAAAQZgAAAAEAACAAAAAbcxwk+dUcqMMqZjcMVidYdD1A/q4ZkjFo4Y7JT1/msAAAAAAOgAAAAAIAACAAAAB2nJVpLXkLGrDbDvSRYW8xx48VYQa5It3/u2OkPF3cEyAAAAD23822TImSC9rYpDtwoMHBULlSV5CJai4dE0LgxDkgCkAAAABHFQ19350BLU5lNteHwdZDzf5UpV245EFA7I9i92wbyQAvMFqXdoNbXow+UpJS/tjuf4HQyly7ikvkHtvrDQ9K</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.site4now.net/patricksbj</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>12/08/2019 17:59:25</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>12/08/2019 17:59:25</publishTime>
+    </File>
+    <File Include="appsettings.Production.json">
+      <publishTime>12/08/2019 16:49:43</publishTime>
+    </File>
+    <File Include="Newtonsoft.Json.dll">
+      <publishTime>11/09/2019 00:56:44</publishTime>
+    </File>
+    <File Include="PersonalWebsite.deps.json">
+      <publishTime>12/08/2019 19:47:24</publishTime>
+    </File>
+    <File Include="PersonalWebsite.dll">
+      <publishTime>12/08/2019 19:44:33</publishTime>
+    </File>
+    <File Include="PersonalWebsite.pdb">
+      <publishTime>12/08/2019 19:44:33</publishTime>
+    </File>
+    <File Include="PersonalWebsite.runtimeconfig.json">
+      <publishTime>12/08/2019 19:47:24</publishTime>
+    </File>
+    <File Include="PersonalWebsite.Views.dll">
+      <publishTime>12/08/2019 19:44:34</publishTime>
+    </File>
+    <File Include="PersonalWebsite.Views.pdb">
+      <publishTime>12/08/2019 19:44:34</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>12/08/2019 19:47:24</publishTime>
+    </File>
+    <File Include="wwwroot/css/BasicStyles.css">
+      <publishTime>12/08/2019 19:41:32</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/images/circle.png">
+      <publishTime>12/03/2019 14:20:33</publishTime>
+    </File>
+    <File Include="wwwroot/images/MG_3718.JPG">
+      <publishTime>09/23/2019 10:55:09</publishTime>
+    </File>
+    <File Include="wwwroot/images/_MG_3732.JPG">
+      <publishTime>09/23/2019 19:36:53</publishTime>
+    </File>
+    <File Include="wwwroot/images/_MG_3817.JPG">
+      <publishTime>09/26/2019 00:24:37</publishTime>
+    </File>
+    <File Include="wwwroot/images/_MG_4274.JPG">
+      <publishTime>10/17/2019 23:06:43</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>12/08/2019 19:14:48</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>12/03/2019 12:36:18</publishTime>
+    </File>
+  </ItemGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="SanConnectionString">
+      <Value>Data Source=SQL5041.site4now.net%3bInitial Catalog=DB_A50BA4_patricksbj%3bUser Id=DB_A50BA4_patricksbj_admin%3bPassword=1a1a1a1a1a%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
